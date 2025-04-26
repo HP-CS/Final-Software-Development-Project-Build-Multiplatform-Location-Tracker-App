@@ -1,0 +1,9 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LocationTrackerApp.Views.MainPage">
+    <VerticalStackLayout>
+        <Button Text="Start Tracking" Clicked="OnStartClicked" />
+        <Button Text="Stop Tracking" Clicked="OnStopClicked" />
+        <maps:Map x:Name="LocationMap" HeightRequest="400" />
+    </VerticalStackLayout>
+</ContentPage>
